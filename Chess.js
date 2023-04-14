@@ -81,10 +81,6 @@ function reddish() {
                     if (a % 2 !== 0 && pinkColor == greenColor) {
                         i2.style.backgroundColor = 'rgb(100, 75, 43)'
                     }
-
-                    // if (pinkColor == greenColor) {
-                    //     i2.style.backgroundColor = 'rgb(253, 60, 60)'
-                    // }
                 }
             })
         }
