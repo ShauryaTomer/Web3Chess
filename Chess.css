@@ -51,30 +51,40 @@ li {
     transform: scale(.7);
 }
 
-.authcont {
-    width: 100vw;
-}
-
-.author {
-    float: right;
-    margin-right: 50px;
-
-}
-
-
-@media (max-width:650px){
-
-    #tog {
-        margin-bottom: 70px;
-
-    }
-
-    .box {
-        width: 11vw;
-        height: 11vw;
-    }
-
-    .allimg {
-        width: 7vw;
-    }
-}
+#connect-wallet {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  /* Style for the connect button */
+#connect-wallet-btn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style for the account input field */
+  #account-input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
